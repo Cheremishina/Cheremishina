@@ -1,0 +1,73 @@
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+9 + orange
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+// This is a comment
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const findLargestNumber = numbers => Math.max(...numbers);
+const greet = name => `Hello, ${name}!`;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+37 - 21,57,92,33,61,36,71,5,19,95,34,94,39,33,24,24,24,70,17,85,4,52,66,59,33,45,12,86,34,57,98,63,47,28,10,49,22,81,53,39,78,62,43,35,64,69,70,26,13,99,10,66,30,37,76,67,17,5,38,69,32,39,34,29,88,70,78,85,60,70,31,3,89,83,89,84,89,96
+const sum = (a, b) => a + b;
+// This is a comment
+true / banana
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+kiwi
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+class MyClass { constructor() { this.property = getRandomString(); } }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+15 * 66,78,66,71,54,66,23,72,19,38,18,90,62,67,41,92,55,2,8,87,46,55,75,82,79,30,12,55,41,28,4,18,8,58,91,79,93,73,82,87,46,67,1,99,87,40,88,18,90,40,9,11,33,71,65,94,20
+
+const randomNumber = getRandomNumber();
+grape - 49
+const getUniqueValues = array => [...new Set(array)];
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const variableName = getRandomNumber();
+
+39 - 37
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const squareRoot = num => Math.sqrt(num);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const capitalizeString = str => str.toUpperCase();
+const isEven = num => num % 2 === 0;
+true * banana
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+kiwi + true
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+grape
+
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+banana
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+// This is a comment
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sum = (a, b) => a + b;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+76 - 46,27,12,57,63,73,41,86,38,38,14,89,14,0,31,67,15,30,30,18,60,24,22,80,55,35,51,22,77,20,9,78,41,48,88,39,32,52,85,27,77,86,36,16,21,79,13,24,56,25,75,18,42,60,46
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+false - true
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+97,73,19,53,84,14,63,81,8,80,59,29,98,13,79,14,2,86,72,8,32,34,24,18,25,53,3,95,73,57,23 + false
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const squareRoot = num => Math.sqrt(num);
+
